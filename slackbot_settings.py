@@ -1,4 +1,6 @@
-API_TOKEN = "xoxb-955287568036-955778365109-xhsrfjKGObUhZYUZZd6UIkjz"
+import os
+
+API_TOKEN = os.environ["API_TOKEN"]
 
 DEFAULT_REPLY = "???"
 
